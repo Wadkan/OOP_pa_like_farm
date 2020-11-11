@@ -1,6 +1,6 @@
-public class Almond extends Plant {
+public class Almond extends GrowShroom {
     public Almond() {
-        super(50);
+        super(50, 8, 10, 13);
     }
 
     @Override
@@ -10,6 +10,4 @@ public class Almond extends Plant {
             setProducePerMonth(getProducePerMonth() * 2);
         }
     }
-
-
 }
